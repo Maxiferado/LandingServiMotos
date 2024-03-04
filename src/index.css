@@ -7,10 +7,41 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
+  overflow-x: hidden;  
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@layer utilities {
+
+  .clip-triangulo-bot {
+
+      clip-path: polygon(60% 0, 0 0, 0 100%);
+
+  }
+
+}
+@layer utilities {
+
+  .clip-triangulo-top {
+
+    clip-path: polygon(59% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+@layer utilities {
+
+  .sombra-magica {
+
+    box-shadow: 0px -10px 15px rgba(219, 219, 219, 0.521) inset;   
+
+  }
+}
+
+
+
+
+

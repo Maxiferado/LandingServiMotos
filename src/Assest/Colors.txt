@@ -1,0 +1,14 @@
+Naranj significantly = #cc4700ff
+
+escala de blancos = 
+#ccccccff
+#666666ff
+#ffffffff
+
+Escala de rojos = 
+#cc0000ff -- Rojo Honda
+#772828ff -- Sombras?
+#800000ff -- SoftRed
+#3c0000ff -- HardRed
+
+#000000ff
