@@ -41,7 +41,30 @@ code {
   }
 }
 
+@layer utilities {
+
+  .clip-triangulo-bot-r {
+
+      clip-path: polygon(0 0, 100% 0, 42% 100%, 0% 100%);
+
+  }
+
+}
+@layer utilities {
+
+  .clip-triangulo-top-r {
+
+    clip-path: polygon(100% 0, 40% 100%, 100% 100%);
+  }
+}
 
 
 
+@layer utilities {
+
+  .clip-triangulo-OG {
+
+    clip-path: polygon(0 0, 50% 30%, 0 100%);
+  }
+}
 
